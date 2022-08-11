@@ -1,0 +1,16 @@
+#include<stdio.h>
+int subtractProductAndSum(int n){
+    int num,sum=0,rem=0,product=1,res;
+    while(n!=0)
+    {
+        rem=n%10;
+        product=product*rem;
+        sum=sum+rem;
+        n=n/10;
+    }
+    res=product-sum;
+  
+return res;    
+
+}
+
