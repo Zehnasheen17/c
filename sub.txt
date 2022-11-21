@@ -1,0 +1,12 @@
+print('subtraction')
+a=int(input('enter a:'))
+b=int(input('enter b:'))
+c=a-b
+print(c)
+
+output:
+subtraction
+enter a:42
+enter b:21
+21
+
