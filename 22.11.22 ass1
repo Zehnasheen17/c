@@ -1,0 +1,15 @@
+P=int(input('enter principle amount: '))
+t=int(input('enter time: '))
+r=int(input('enter rate of interest: '))
+si=(P*t*r)/100
+print('simple interest: ',si)
+emi=(P+si)/t*12
+print('emi: ',emi)
+
+
+output:
+enter principle amount: 120000
+enter time: 2
+enter rate of interest: 15
+simple interest:  36000.0
+emi:  936000.0
