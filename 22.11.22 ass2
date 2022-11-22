@@ -1,0 +1,13 @@
+a=int(input('enter a: '))
+b=int(input('enter b: '))
+a=a+b
+b=a-b
+a=a-b
+print('a = ',a)
+print('b = ',b)
+ 
+output:
+enter a: 5
+enter b: 4
+a =  4
+b =  5
