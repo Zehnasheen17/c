@@ -1,0 +1,35 @@
+print('ENTER DATA:')
+sno=int(input('enter sno: '))
+name=input('enter name: ')
+group=input('enter group: ')
+gender=input('enter gender: ')
+phno=int(input('enter phno: '))
+address=(input('enter address: '))
+dper=float(input('enter degree percentage: '))
+print('STUDENT DATA:')
+print('sno : ',sno)
+print('name: ',name)
+print('group: ',group)
+print('gender: ',gender)
+print('phno: ',phno)
+print('address: ',address)
+print('degree percentage: ',dper)
+
+
+output:
+ENTER DATA:
+enter sno: 27
+enter name: Fathema
+enter group: BCA
+enter gender: Female
+enter phno: 1234567891
+enter address: Abcdefgh
+enter degree percentage: 79.96
+STUDENT DATA:
+sno :  27
+name:  Fathema
+group:  BCA
+gender:  Female
+phno:  1234567891
+address:  Abcdefgh
+degree percentage:  79.96
